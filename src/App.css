@@ -1,0 +1,41 @@
+body {
+    height: 100%; 
+    margin:0;
+    background: url("./images/background.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.App {
+    text-align: center;
+    height: 100vh;
+    
+    
+}
+
+.anime-card {
+    display: flex;
+    align-items: center; /* Center image and text */
+    justify-content: start; /* Align text next to image */
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    margin-bottom: 1rem; /* Add spacing between cards */
+  }
+  
+  .anime-title {
+    display: block; /* Ensure it behaves as a block */
+    width: 100%; /* Full width of the container */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis for overflow */
+    max-width: 200px; /* Set a maximum width for the text */
+  }
+  
+  .blur-background {
+    position: fixed; /* Keep it in the same position */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(3px); /* Adjust the blur amount */
+    z-index: -1; /* Ensure it stays behind other elements */
+}
