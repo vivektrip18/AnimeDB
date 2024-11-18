@@ -1,8 +1,26 @@
-# React + Vite
+# Anime Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Anime Finder is a simple web application that uses the [Jikan API](https://jikan.moe/) to fetch anime data and display anime tiles. Clicking on an anime tile redirects users to the respective **MyAnimeList** page for more details.
 
-Currently, two official plugins are available:
+## DEMO: https://startling-bunny-5b4b83.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Fetch and display a list of anime titles and information.
+- Responsive anime tiles with posters and titles.
+- Redirection to the corresponding MyAnimeList page when a tile is clicked.
+
+## Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **API**: [Jikan API](https://jikan.moe/)
+- **Hosting**: Any static hosting platform (e.g., GitHub Pages, Netlify)
+
+## Installation and Setup
+
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/anime-finder.git
+   cd anime-finder
