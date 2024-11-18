@@ -1,6 +1,6 @@
-# Anime Finder
+# AnimeDB
 
-Anime Finder is a simple web application that uses the [Jikan API](https://jikan.moe/) to fetch anime data and display anime tiles. Clicking on an anime tile redirects users to the respective **MyAnimeList** page for more details.
+AnimeDB is a simple web application that uses the [Jikan API](https://jikan.moe/) to fetch anime data and display anime tiles. Clicking on an anime tile redirects users to the respective **MyAnimeList** page for more details.
 
 ## DEMO: https://startling-bunny-5b4b83.netlify.app/
 
