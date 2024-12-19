@@ -22,5 +22,4 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/anime-finder.git
-   cd anime-finder
+   git clone https://github.com/vivektrip18/AnimeDB.git
