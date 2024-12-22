@@ -14,28 +14,28 @@ body {
 
 .anime-card {
     display: flex;
-    align-items: center; /* Center image and text */
-    justify-content: start; /* Align text next to image */
+    align-items: center; 
+    justify-content: start; 
     padding: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
-    margin-bottom: 1rem; /* Add spacing between cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem; 
   }
   
   .anime-title {
-    display: block; /* Ensure it behaves as a block */
-    width: 100%; /* Full width of the container */
-    white-space: nowrap; /* Prevent text from wrapping */
-    overflow: hidden; /* Hide overflow text */
-    text-overflow: ellipsis; /* Show ellipsis for overflow */
-    max-width: 200px; /* Set a maximum width for the text */
+    display: block; 
+    width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 200px; 
   }
   
   .blur-background {
-    position: fixed; /* Keep it in the same position */
+    position: fixed; 
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    backdrop-filter: blur(3px); /* Adjust the blur amount */
-    z-index: -1; /* Ensure it stays behind other elements */
+    backdrop-filter: blur(3px); 
+    z-index: -1; 
 }
